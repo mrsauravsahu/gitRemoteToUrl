@@ -3,13 +3,24 @@ Converts `git remote get-url origin` to a valid url to open in the browser.
 
 ## **How to use?**
 
-### Clone the repository
+### Clone or install via npm
 
 ```git clone https://github.com/saurav-sahu/gitRemoteToUrl.git```
 
+---
+
+```npm i -g git-remote-to-url```
+
+
 ### Set up a git alias
 
-```git config --global alias.gl '!node ~/gitRemoteToUrl/index.js `git remote get-url origin`'```
+```
+#Set $REPOSITORY to the location where you cloned the repository
+
+REPOSITORY='~/gitRemoteToUrl'
+
+git config --global alias.gl "!node $REPOSITORY/get-link.js `git remote get-url origin`"
+```
 
 ### Use the alias
 
