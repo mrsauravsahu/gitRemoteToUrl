@@ -1,4 +1,4 @@
-const gitRemoteToUrl = require('./gitRemoteToUrl');
+const gitRemoteToUrl = require('./git-remote-to-url');
 
 describe(gitRemoteToUrl.name, () => {
   describe('should return empty string', () => {
