@@ -1,6 +1,6 @@
 {
   "name": "git-remote-to-url",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Script that converts git remote to a website url.",
   "main": "index.js",
   "scripts": {

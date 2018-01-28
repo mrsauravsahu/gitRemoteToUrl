@@ -1,2 +1,4 @@
 **/*.test.js
 coverage
+.vscode
+.eslintrc.js
