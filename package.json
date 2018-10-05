@@ -1,10 +1,13 @@
 {
   "name": "git-remote-to-url",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Script that converts git remote to a website url.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest --env=node --verbose"
+  },
+  "bin": {
+    "grtu": "bin/grtu.js"
   },
   "keywords": [
     "JavaScript"
@@ -15,8 +18,9 @@
     "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.6.0",
-    "jest": "^22.1.4"
+    "jest": "^22.4.4"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.2"
   }
 }
