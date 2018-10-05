@@ -1,8 +1,8 @@
 const gitRemoteToUrl = (remote) => {
   if (typeof remote !== 'string' || remote === '') return '';
 
-  const hostRegex = /@[a-zA-Z0-9\.]+:/;
-  const hostRepositoryRegex = /[a-zA-Z0-9]+@[a-zA-Z0-9\.]+/;
+  const hostRegex = /@[a-zA-Z0-9.]+:/;
+  const hostRepositoryRegex = /[a-zA-Z0-9]+@[a-zA-Z0-9.]+/;
   const noPrefixRegex = /^[a-zA-Z]+:\/\//;
   const http = 'http';
 
