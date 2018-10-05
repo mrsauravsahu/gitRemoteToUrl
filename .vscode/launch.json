@@ -18,11 +18,8 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
-      "program": "${workspaceFolder}/bin/setup.js",
-      "args": [
-        "~/repo/gitRemoteToUrl"
-      ]
+      "name": "Launch CLI",
+      "program": "${workspaceFolder}/bin/grtu.js",
     }
   ]
 }
