@@ -10,9 +10,15 @@
     "grtu": "bin/grtu.js"
   },
   "keywords": [
-    "JavaScript"
+    "JavaScript",
+    "git"
   ],
-  "author": "Saurav Sahu",
+  "homepage": "https://github.com/saurav-sahu/gitRemoteToUrl",
+  "bugs": {
+    "email": "sauravsahu.12@live.com",
+    "url": "https://github.com/saurav-sahu/gitRemoteToUrl"
+  },
+  "author": "Saurav Sahu <sauravsahu.12@live.com>",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^4.16.0",
