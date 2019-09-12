@@ -11,7 +11,7 @@ const commandCheckDirectoryExists = directory =>
   `test -d "${directory}"`;
 const commandCheckGitRepo = 'git rev-parse --is-inside-work-tree';
 const commandGetGitRemote = (remote = 'origin') =>
-  `bash -c 'git remote get-url ${remote}'`;
+  `sh -c 'git remote get-url ${remote}'`;
 
 // check if directory passed exists && it is a git repo
 const doesDirectoryExist = shell.exec(commandCheckDirectoryExists(location)).code === 0;
