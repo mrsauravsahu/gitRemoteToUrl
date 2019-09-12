@@ -4,7 +4,7 @@
   "description": "Script that converts git remote to a website url.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --env=node --verbose"
+    "test": "GRTU_ABSOLUTE_PATH=$PWD/bin/grtu.js jest --env=node --verbose"
   },
   "bin": {
     "grtu": "bin/grtu.js"
