@@ -13,7 +13,7 @@ jobs:
       - name: setup-node
         uses: actions/setup-node@v1
         with:
-          version: 10.16.3
+          node-version: 'v10.16.3'
       - name: run tests
         run: |
           npm i
