@@ -1,8 +1,6 @@
-FROM node:10.16.3-alpine
+FROM nikolaik/python-nodejs:python2.7-nodejs10
 
 WORKDIR /app
-
-RUN apk add git
 
 COPY package.json yarn.lock ./
 
