@@ -1,14 +1,15 @@
-ARG TEST_DIR=/tmp/grtu
-
 FROM node:10.16.3-alpine
 
 WORKDIR /app
 
-COPY package.json package-lock.json ./
+RUN apk add git
 
-RUN npm i &&  \
-    apk add git
+COPY package.json yarn.lock ./
 
+RUN yarn
+    
 COPY . .
 
-RUN npm test
+RUN yarn global add file:/app
+
+RUN yarn test

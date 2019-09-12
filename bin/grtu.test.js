@@ -4,9 +4,9 @@ const shell = require('shelljs');
 shell.config.silent = true;
 
 // Read temporary directory location from ENV
-const packageName = "grtu";
-const packageBin = "/app/bin/grtu.js";
-const testLocation = process.env.TEST_DIR || `/tmp/${packageName}`;
+const packageName = 'git-remote-to-url';
+const packageBin = process.env.GRTU_ABSOLUTE_PATH || 'grtu';
+const testLocation = process.env.GRTU_TEST_DIR || `/tmp/${packageName}`;
 
 describe(packageName, () => {
   beforeAll(() => {
