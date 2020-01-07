@@ -1,4 +1,4 @@
-# **gitRemoteToUrl**
+## **gitRemoteToUrl**
 Converts `git remote get-url origin` to a valid url to open in the browser.
 
 ### Clone or install via npm
