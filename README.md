@@ -19,4 +19,16 @@ Run ```grtu <location>``` to get the url for the specified location
 
 ### Open the url in a browser
 
-Pass ``` `grtu` ``` as an argument to other programs. Example run ```open `grtu` ``` to open the url in your browser on OS X.
+Pass ``` `grtu` ``` as an argument to other programs. 
+
+Example run 
+
+```
+open `grtu .` 
+# to open the url in your browser on Mac
+``` 
+
+```
+gnome-open `grtu .` 
+# to open the url in your browser on Ubuntu
+```
