@@ -1,32 +1,32 @@
 {
-  "name": "git-remote-to-url",
-  "version": "1.1.1",
-  "description": "Script that converts git remote to a website url.",
-  "main": "index.js",
-  "scripts": {
-    "test": "GRTU_ABSOLUTE_PATH=$PWD/bin/grtu.js jest --env=node --verbose"
-  },
-  "bin": {
-    "grtu": "bin/grtu.js"
-  },
-  "keywords": [
-    "JavaScript",
-    "git"
-  ],
-  "homepage": "https://github.com/saurav-sahu/gitRemoteToUrl",
-  "bugs": {
-    "email": "sauravsahu.12@live.com",
-    "url": "https://github.com/saurav-sahu/gitRemoteToUrl"
-  },
-  "author": "Saurav Sahu <sauravsahu.12@live.com>",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^7.25.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "jest": "^26.6.3"
-  },
-  "dependencies": {
-    "shelljs": "^0.8.4"
-  }
+    "name": "git-remote-to-url",
+    "version": "1.1.2",
+    "description": "Script that converts git remote to a website url.",
+    "main": "index.js",
+    "scripts": {
+        "test": "GRTU_ABSOLUTE_PATH=$PWD/bin/grtu.js jest --env=node --verbose"
+    },
+    "bin": {
+        "grtu": "bin/grtu.js"
+    },
+    "keywords": [
+        "JavaScript",
+        "git"
+    ],
+    "homepage": "https://github.com/mrsauravsahu/gitRemoteToUrl",
+    "bugs": {
+        "email": "mrsauravsahu@outlook.com",
+        "url": "https://github.com/mrsauravsahu/gitRemoteToUrl"
+    },
+    "author": "Saurav Sahu <mrsauravsahu@outlook.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^7.25.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.22.1",
+        "jest": "^26.6.3"
+    },
+    "dependencies": {
+        "shelljs": "^0.8.4"
+    }
 }
